@@ -11,6 +11,7 @@ html {
 
 .container {
     height: 100%;
+    
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
@@ -34,6 +35,10 @@ html {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content {
