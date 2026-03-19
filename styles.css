@@ -74,7 +74,8 @@ html {
     grid-template-columns: 3fr 1fr;
 }
 
-.content div:first-child {
+.content > div:first-child,
+.content > div:last-child {
    display: flex;
    flex-direction: column;
 
@@ -88,6 +89,10 @@ html {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+}
+
+.social > div {
+    flex: 1;
 }
 
 ul {
