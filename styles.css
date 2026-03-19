@@ -60,6 +60,17 @@ html {
     grid-template-rows: 1fr 1fr;
 }
 
+.header > * {
+    display: flex;
+    align-items: center;
+}
+
+.header p {
+    margin: 0;
+}
+    
+}
+
 ul {
     list-style: none;
 }
@@ -67,3 +78,4 @@ ul {
 a {
     text-decoration: none;
 }
+
