@@ -75,12 +75,19 @@ html {
 }
 
 .content div:first-child {
+   display: flex;
+   flex-direction: column;
+
+   padding: 20px;
+}
+
+.cards {
+    flex: 1;
+
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-
-    padding: 20px;
 }
 
 ul {
