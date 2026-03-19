@@ -69,6 +69,11 @@ html {
     margin: 0;
 }
 
+.content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
 ul {
     list-style: none;
 }
