@@ -45,8 +45,8 @@ html {
     justify-content: space-between;
 
     background-color: var(--background-color);
-    padding-right: 32px;
-    padding-left: 32px;
+    padding: 32px;
+    padding: 32px;
 }
 
 .sidebar > ul {
