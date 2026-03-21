@@ -111,14 +111,13 @@ a {
     text-decoration: none;
 }
 
-/*
+
 svg {
     width: 1.5rem;
     height: auto;
-    fill: white;
+    fill: var(--text-color);
 }
 
-*/
 
 
 
