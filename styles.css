@@ -57,6 +57,12 @@ html {
     color: var(--text-color);
 }
 
+.sidebar p,
+.sidebar a {
+    display: flex;
+    gap: 1rem;
+}
+
 .content {
     grid-column-start: 2;
     grid-column-end: 3;
