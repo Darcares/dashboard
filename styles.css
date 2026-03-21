@@ -75,6 +75,19 @@ html {
     font-weight: 500;
 }
 
+.sidebar svg {
+    height: auto;
+    fill: var(--text-color);
+}
+
+.sidebar li svg {
+    width: 2rem;
+}
+
+.sidebar p svg {
+    width: 2.5rem;
+}
+
 .content {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -132,11 +145,6 @@ a {
 }
 
 
-svg {
-    width: 1.5rem;
-    height: auto;
-    fill: var(--text-color);
-}
 
 
 
