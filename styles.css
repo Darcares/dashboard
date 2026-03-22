@@ -121,7 +121,8 @@ html {
 .content > div:last-child {
    display: flex;
    flex-direction: column;
-
+   gap: 0.75rem;
+   
    padding: 20px;
 }
 
