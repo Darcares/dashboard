@@ -137,7 +137,8 @@ html {
 
 .content > div > p:first-child,
 .card > p:first-child,
-.social > p {
+.social > p,
+.announcements p:first-child {
     font-weight: 500;
 }
 
@@ -151,7 +152,8 @@ html {
     background-color: var(--white);
 }
 
-.card {
+.card,
+.social > div {
     padding: 1.5rem;
     border-radius: 16px;
 }
@@ -163,6 +165,24 @@ html {
 
 .social > div {
     flex: 1;
+}
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+}
+
+.announcements > * {
+    flex: 1;
+}
+
+.announcements p:first-child {
+    font-size: 0.9rem;
+}
+
+.announcements p:last-child {
+    font-size: 0.8rem;
+    color: var(--greenish-grey);
 }
 
 ul {
