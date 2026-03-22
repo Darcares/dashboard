@@ -133,6 +133,12 @@ html {
     gap: 20px;
 }
 
+.content > div > p:first-child,
+.card > p:first-child,
+.social > p {
+    font-weight: 500;
+}
+
 .card,
 .social div {
     background-color: var(--white);
