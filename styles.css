@@ -89,15 +89,6 @@ html {
     width: 2.5rem;
 }
 
-.content {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-
-    background-color: var(--soft-white);
-}
-
 .header {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -116,6 +107,13 @@ html {
 .content {
     display: grid;
     grid-template-columns: 3fr 1fr;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    background-color: var(--soft-white);
 }
 
 .content > div:first-child,
