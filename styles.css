@@ -22,7 +22,7 @@ html {
     grid-template-rows: 1fr 5fr;
 }
 
-.container div {
+.header div {
     border-style: solid;
     border-color: black;
     border-width: 1px;
