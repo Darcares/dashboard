@@ -1,4 +1,5 @@
 * {
+    --greenish-grey: rgb(47, 79, 79);
     --white: rgb(255, 255, 255);
     --soft-white: rgb(237, 237, 237);
     --chill-green: rgb(57, 179, 111);
@@ -142,6 +143,16 @@ html {
 .card,
 .social div {
     background-color: var(--white);
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: 16px;
+}
+
+.card > p:last-child {
+    font-size: 0.9rem;
+    color: var(--greenish-grey);
 }
 
 .social > div {
