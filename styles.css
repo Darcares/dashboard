@@ -201,6 +201,41 @@ html {
     padding-bottom: 0.5rem;
 }
 
+.trending {
+    display: flex;
+    flex-direction: column;
+}
+
+.trending img {
+    width: 3rem;
+    height: auto;
+}
+
+.trending > div {
+    flex: 1;
+
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.trending > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trending a:first-child {
+    color: black;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.trending a:last-child {
+    color: var(--greenish-grey);
+    font-size: 0.8rem;
+}
+
 ul {
     list-style: none;
 }
