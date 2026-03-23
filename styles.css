@@ -213,6 +213,17 @@ html {
     gap: 1.25rem;
 }
 
+.cards > div > div {
+   display: flex;
+   justify-content: end;
+   gap: 1.3rem;
+}
+
+.cards svg {
+    width: 1.3rem;
+    height: auto;
+}
+
 .content > div > p:first-child,
 .card > p:first-child,
 .social > p,
