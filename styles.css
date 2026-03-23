@@ -1,4 +1,5 @@
 * {
+    --light-grey: rgb(218 215 215);
     --greenish-grey: rgb(47, 79, 79);
     --white: rgb(255, 255, 255);
     --soft-white: rgb(237, 237, 237);
@@ -170,10 +171,14 @@ html {
 .announcements {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
 
-.announcements > * {
+.announcements > div {
     flex: 1;
+
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
 }
 
 .announcements p:first-child {
@@ -188,6 +193,11 @@ html {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
+}
+
+.announcements div:not(:last-child) {
+    border-bottom: 1px var(--light-grey) solid;
+    padding-bottom: 0.5rem;
 }
 
 ul {
