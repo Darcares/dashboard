@@ -24,11 +24,11 @@ html {
     grid-template-rows: 1fr 5fr;
 }
 
-.header div {
+/* .header div {
     border-style: solid;
     border-color: black;
     border-width: 1px;
-}
+} */
 
 .header {
     grid-column-start: 2;
@@ -95,6 +95,9 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 .header > * {
@@ -104,6 +107,86 @@ html {
 
 .header p {
     margin: 0;
+}
+
+.header > div:first-child > svg {
+    width: 2rem;
+    height: auto;
+    margin-right: 1rem ;
+}
+
+.header > div:first-child > input {
+    font-size: inherit;
+    background-color: var(--soft-white);
+    border-radius: 16px;
+    border: none;
+    height: 2rem;
+    width: 35rem;
+    text-indent: 0.5rem;
+}
+
+.header > div:first-child > input:focus-visible {
+    outline: none;
+}
+
+.header > div:nth-child(2) {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.header > div:nth-child(2) div {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.header > div:nth-child(2) svg {
+    width: 1.5rem;
+    height: auto;
+}
+
+.header > div:nth-child(2) img {
+    width: 3.5rem;
+    height: auto;
+}
+
+.header > div:nth-child(2) p {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.header > div:nth-child(3) img {
+    width: 5rem;
+    height: auto;
+    margin-right: 1rem ;
+}
+
+.header > div:nth-child(3) p {
+    font-weight: 500;
+}
+
+.header > div:nth-child(3) p:first-child {
+    font-size: 0.9rem;
+}
+
+.header > div:nth-child(3) p:last-child {
+    font-size: 1.4rem;
+}
+
+.header > div:last-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header > div:last-child button {
+    color: var(--white);
+    font-weight: 500;
+    background-color: var(--chill-green);
+    border-radius: 16px;
+    border: none;
+    width: 6rem;
+    height: 2.5rem;
 }
 
 .content {
