@@ -183,6 +183,11 @@ html {
 .announcements p:last-child {
     font-size: 0.8rem;
     color: var(--greenish-grey);
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
 }
 
 ul {
