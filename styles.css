@@ -193,6 +193,7 @@ html {
     grid-row-end: 3;
 
     background-color: var(--soft-white);
+    box-shadow: inset var(--light-grey) 0px 1px 2px 2px;
 }
 
 .content > div:first-child,
@@ -234,7 +235,9 @@ html {
 .social > div {
     padding: 1.5rem;
     border-radius: 16px;
+    box-shadow: var(--light-grey) 2px 2px 2px 1px;
 }
+
 
 .card > p:last-child {
     font-size: 0.9rem;
