@@ -1,4 +1,5 @@
 * {
+    --black: rgb(0, 0, 0);
     --light-grey: rgb(218 215 215);
     --greenish-grey: rgb(47, 79, 79);
     --white: rgb(255, 255, 255);
@@ -316,7 +317,7 @@ html {
 }
 
 .trending a:first-child {
-    color: black;
+    color: var(--black);
     font-weight: 500;
     font-size: 0.9rem;
 }
