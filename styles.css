@@ -24,12 +24,6 @@ html {
     grid-template-rows: 1fr 5fr;
 }
 
-/* .header div {
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-} */
-
 .header {
     grid-column-start: 2;
     grid-column-end: 3; 
